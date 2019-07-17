@@ -1,16 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
 
-body {
+
+/* css component start here */
+
+
+/* body {
     background-color: #f4f4f4;
-    color: #555555;
-    /* */
-    font-family: Arial, Helvetica, sans-serif;
+    color: #555555; */
+
+
+/* */
+
+
+/* font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
-    font-weight: normal;
-    /* same as above */
-    font: normal 16px Arial, Helvetica, sans-serif;
-    /********/
-    line-height: 1.6em;
+    font-weight: normal; */
+
+
+/* same as above */
+
+
+/* font: normal 16px Arial, Helvetica, sans-serif; */
+
+
+/********/
+
+
+/* line-height: 1.6em;
     margin: 0px;
 }
 
@@ -42,6 +58,10 @@ a:visited {}
     color: #fff;
 }
 
+.clr {
+    clear: both;
+}
+
 .container {
     width: 80%;
     margin: auto;
@@ -49,11 +69,17 @@ a:visited {}
 
 .box-1 {
     background-color: #333;
-    color: #fff;
-    /******/
-    border: 5px solid red;
-    border-top-style: groove;
-    /****/
+    color: #fff; */
+
+
+/******/
+
+
+/* border: 5px solid red;
+    border-top-style: groove; */
+
+
+/* **
     padding: 20px;
     margin: 20px 0;
 }
@@ -100,11 +126,16 @@ a:visited {}
 }
 
 .my-form .form-group {
-    padding-bottom: 15px;
-    /* margin-bottom: 15px; */
-}
+    padding-bottom: 15px; */
 
-.my-form label {
+
+/* margin-bottom: 15px; */
+
+
+/* } */
+
+
+/* .my-form label {
     display: block;
 }
 
@@ -113,3 +144,176 @@ a:visited {}
     padding: 8px;
     width: 100%;
 }
+
+.block {
+    float: left;
+    width: 33.3%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#main-block {
+    float: left;
+    width: 70%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#sidebar {
+    float: right;
+    width: 30%;
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.p-box {
+    width: 1200px;
+    height: 500px;
+    border: 1px solid #000;
+    margin-top: 30px;
+    position: relative;
+    background-image: url('./assets/images/image.jpeg');
+    background-repeat: no-repeat;
+    background-position: 100px 200px;
+    background-position: center center;
+    background-size: cover;
+}
+
+.p-box h1 {
+    position: absolute;
+    left: 550px;
+}
+
+.p-box h2 {
+    position: absolute;
+    bottom: 50px;
+    left: 535px;
+}
+
+.fix-me {
+    position: fixed;
+    top: 400px;
+}
+
+.my-list li:first-child {
+    background: red;
+}
+
+.my-list li:last-child {
+    background: green;
+}
+
+.my-list li:nth-child(5) {
+    background: yellow;
+}
+
+.my-list li:nth-child(even) {
+    background: grey;
+} */
+
+
+/* css component end here */
+
+
+/* My Website css start here*/
+
+body {
+    background-color: #f4f4f4;
+    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0px;
+}
+
+.container {
+    margin: auto;
+    width: 80%;
+    overflow: hidden;
+}
+
+#main-header {
+    background: coral;
+    color: #fff;
+}
+
+#navbar {
+    background: #333;
+    color: #fff;
+}
+
+#navbar ul {
+    padding: 0;
+    list-style: none;
+}
+
+#navbar li {
+    display: inline;
+}
+
+#navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+}
+
+#showcase {
+    background-image: url('./assets/images/images1.jpeg');
+    background-position: center right;
+    /* height: 300px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#showcase h1 {
+    color: #fff;
+    font-size: 50px;
+    line-height: 1.6em;
+    padding-top: 30px;
+}
+
+#main {
+    float: left;
+    width: 70%;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+#sidebar {
+    float: right;
+    width: 30%;
+    padding: 0 30px;
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#main-footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 22px;
+    margin-top: 40px;
+}
+
+@media(max-width:660px) {
+    #main {
+        width: 100%;
+        float: none;
+    }
+    #sidebar {
+        width: 100%;
+        float: none;
+    }
+}
+
+
+/* My Website css end here*/
